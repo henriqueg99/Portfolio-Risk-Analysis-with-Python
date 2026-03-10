@@ -233,4 +233,10 @@ This project was developed as a **personal quantitative finance project** to exp
 
 # Author
 
-Personal quantitative finance project.
+Henrique Guedes
+
+Applied Mathematics & Modelling Student  
+Personal Quantitative Finance Project
+
+GitHub: https://github.com/henriqueg99
+LinkedIn: www.linkedin.com/in/henrique-guedes-347259390
