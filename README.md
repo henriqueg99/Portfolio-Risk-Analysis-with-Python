@@ -24,7 +24,6 @@ This first version focuses on **building the core risk analysis engine** and vis
 
 A second version of the project will extend this work into an **interactive portfolio risk application**.
 
----
 
 # Assets Analysed
 
@@ -42,7 +41,6 @@ Example assets:
 
 Historical data is retrieved using the **yfinance API**.
 
----
 
 # Methodology
 
@@ -52,7 +50,6 @@ Historical price data is downloaded using `yfinance`.
 
 Adjusted close prices are used in order to account for dividends and splits.
 
----
 
 ## 2. Log Return Computation
 
@@ -68,7 +65,6 @@ Log returns are commonly used in quantitative finance because they:
 * are more suitable for statistical modelling
 * are additive over time
 
----
 
 ## 3. Volatility Analysis
 
@@ -85,7 +81,6 @@ Annualized volatility is obtained using:
 
 This provides a measure of the **risk of each asset**.
 
----
 
 ## 4. Correlation Analysis
 
@@ -97,7 +92,6 @@ This analysis highlights:
 * highly correlated assets
 * potential concentration risk
 
----
 
 ## 5. Portfolio Volatility
 
@@ -114,7 +108,6 @@ Where:
 
 This provides the **overall risk of the portfolio**.
 
----
 
 ## 6. Monte Carlo Simulation
 
@@ -127,7 +120,6 @@ The simulation is based on:
 
 This allows estimation of the **distribution of potential portfolio losses**.
 
----
 
 ## 7. Value at Risk (VaR)
 
@@ -141,7 +133,6 @@ Example:
 
 VaR is estimated from the simulated loss distribution.
 
----
 
 ## 8. Expected Shortfall (ES)
 
@@ -149,7 +140,6 @@ Expected Shortfall measures the **average loss in the worst cases beyond the VaR
 
 It is a **coherent risk measure** and is widely used in modern risk management frameworks.
 
----
 
 ## 9. VaR Backtesting
 
@@ -162,7 +152,6 @@ Days where losses exceed the VaR are called **exceptions**.
 
 This helps assess the reliability of the risk model.
 
----
 
 ## 10. Stress Testing
 
@@ -176,7 +165,6 @@ Example shocks:
 
 This allows evaluation of **portfolio resilience under crisis conditions**.
 
----
 
 ## 11. Risk Contribution Analysis
 
@@ -190,7 +178,6 @@ This identifies:
 
 Risk contribution is based on the covariance matrix and portfolio weights.
 
----
 
 # Visualisations
 
@@ -206,7 +193,6 @@ The notebook includes several visual tools:
 
 These visualizations provide an intuitive understanding of portfolio risk.
 
----
 
 # Technologies Used
 
@@ -219,7 +205,6 @@ Python libraries used in the project:
 * yfinance
 * jupyter
 
----
 
 # Future Improvements (Version 2)
 
@@ -235,7 +220,6 @@ Planned features include:
 * interactive dashboards
 * web interface using **Streamlit**
 
----
 
 # Educational Purpose
 
@@ -246,7 +230,6 @@ This project was developed as a **personal quantitative finance project** to exp
 * risk management
 * quantitative finance
 
----
 
 # Author
 
